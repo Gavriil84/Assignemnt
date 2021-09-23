@@ -40,7 +40,7 @@ nav a {
     padding: 10px;
     text-align: center;
     background-color: rgb(199, 168, 91);
-    margin: 10px 0;
+    margin: 20px 0;
     font-size: 1.3rem;
 }
 
@@ -95,4 +95,23 @@ p{
     color: #FFF;
     padding: 10px;
     margin: 0;
+}
+
+/* ====================================================== */
+/*                        Tablet                          */
+/* ====================================================== */
+@media screen and (min-width: 700px){
+    /* -----------------------header------------------------- */
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 30px;
+    }
+
+    nav a {
+        padding: 10px 35px;
+    }
+
+
 }
