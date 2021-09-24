@@ -55,35 +55,35 @@ section{
 }
 
 .child1{
-    border: 2px solid rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     border-bottom: none;
 }
 .child2{
-    border: 2px solid rgb(255, 0, 128);
+    border: 1px solid rgb(255, 0, 128);
     border-bottom: none;
 }
 .child3{
-    border: 2px solid rgb(234, 0, 255);
+    border: 1px solid rgb(234, 0, 255);
     border-bottom: none;
 }
 .child4{
-    border: 2px solid rgb(195, 0, 255);
+    border: 1px solid rgb(195, 0, 255);
     border-bottom: none;
 }
 .child5{
-    border: 2px solid rgb(255, 0, 85);
+    border: 1px solid rgb(255, 0, 85);
     border-bottom: none;
 }
 .parent2{
-    border: 2px solid rgb(162, 0, 255);
+    border: 1px solid rgb(162, 0, 255);
     border-bottom: none;
 }
 .parent3{
-    border: 2px solid rgb(98, 0, 255);
+    border: 1px solid rgb(98, 0, 255);
     border-bottom: none;
 }
 .parent4 .child4{
-    border-bottom: 2px solid rgb(195, 0, 255);
+    border-bottom: 1px solid rgb(195, 0, 255);
 }
 
 /* ------------------------footer-------------------------- */
@@ -157,7 +157,7 @@ p{
     }
     .parent4 .child3{
         grid-area: child3;
-        border-bottom: 2px solid rgb(234, 0, 255);
+        border-bottom: 1px solid rgb(234, 0, 255);
     }
     .parent4 .child4{
         grid-area: child4;
@@ -202,15 +202,15 @@ p{
     }
     .parent4 .child1{
         grid-area: child1;
-        border-bottom: 2px solid rgb(255, 0, 0);
+        border-bottom: 1px solid rgb(255, 0, 0);
     }
     .parent4 .child2{
         grid-area: child2;
-        border-bottom: 2px solid rgb(255, 0, 128);
+        border-bottom: 1px solid rgb(255, 0, 128);
     }
     .parent4 .child3{
         grid-area: child3;
-        border-bottom: 2px solid rgb(234, 0, 255);
+        border-bottom: 1px solid rgb(234, 0, 255);
     }
     .parent4 .child4{
         grid-area: child4;
