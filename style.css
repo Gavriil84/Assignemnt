@@ -14,14 +14,16 @@ body {
 }
 
 body{
-    background-color: bisque;
+    background-color: #EFEFEF;
 }
 
 a{
-    color: black;
     text-decoration: none;
 }
-
+img{
+    width: 100%;
+    height: auto;
+}
 
 /* ====================================================== */
 /*                        Mobile                          */
@@ -30,7 +32,7 @@ a{
 /* -----------------------header------------------------- */
 h1{
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     margin: 10px 0;
 }
@@ -39,18 +41,21 @@ nav a {
     display: block;
     padding: 10px;
     text-align: center;
-    background-color: rgb(199, 168, 91);
+    background-color: #FFC069;
     margin: 20px 0;
     font-size: 1.3rem;
+    color: #4A403A;
 }
 
 /* ------------------------main-------------------------- */
 section{
     margin-bottom: 0;
 }
+h2{
+    text-align: center;
+}
 .children{
     font-size: 1.3rem;
-    height: 100px;
     text-align: center;
 }
 
@@ -117,10 +122,9 @@ p{
     /* Parent1 */
     .parent1{
         display: grid;
-        grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+        grid-template: 1fr / 1fr 1fr;
         grid-template-areas: 
-        "child1 child1 child2 child3"
-        "child4 child4 child5 child5"
+        "child1 child2"
         ;
     }
 
@@ -129,15 +133,6 @@ p{
     }
     .parent1 .child2{
         grid-area: child2;
-    }
-    .parent1 .child3{
-        grid-area: child3;
-    }
-    .parent1 .child4{
-        grid-area: child4;
-    }
-    .parent1 .child5{
-        grid-area: child5;
     }
 
     /* Parent4 */
